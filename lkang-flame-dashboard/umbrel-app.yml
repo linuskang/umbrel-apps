@@ -1,15 +1,15 @@
 manifestVersion: 1
 id: lkang-flame-dashboard
 name: Flame Dashboard
-tagline: Replace this tagline with your app's tagline
-icon: https://svgur.com/i/mvA.svg
+tagline: Flame is a self-hosted startpage for your server. Manage your apps and bookmarks effortlessly with built-in editors.
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/flame.png
 category: Development
 version: "1.0.0"
 port: 4000
 description: >-
   The flame dashboard.
 
-developer: Umbrel
+developer: Linus Kang
 website: https://umbrel.com
 submitter: Umbrel
 submission: https://github.com/getumbrel/umbrel-hello-world-app
