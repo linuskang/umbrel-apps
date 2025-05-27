@@ -1,14 +1,19 @@
 version: "3.7"
 
 services:
-
   app_proxy:
     environment:
-      # The format here is: <app-id>_<docker-service-name>_1
+      # Matches the Docker service name below
       APP_HOST: lkang_flame_server_1
       APP_PORT: 5005
-    
+
   server:
     image: pawelmalak/flame:multiarch2.3.1
-    user: "5005:5005"
+    user: "1000:1000"  # Match Umbrel's default user UID/GID unless you have a reason to use 5005
     init: true
+    environment:
+      - PASSWORD=casaos
+    volumes:
+      - ./data:/app/data
+      - /var/run/docker.sock:/var/run/docker.sock
+    restart: unless-stopped
