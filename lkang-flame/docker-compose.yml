@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+
+  app_proxy:
+    environment:
+      # The format here is: <app-id>_<docker-service-name>_1
+      APP_HOST: lkang_flame_server_1
+      APP_PORT: 5005
+    
+  server:
+    image: pawelmalak/flame:multiarch2.3.1
+    user: "5005:5005"
+    init: true

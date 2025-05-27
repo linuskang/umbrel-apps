@@ -1,0 +1,26 @@
+manifestVersion: 1
+id: lkang-flame
+name: Flame
+tagline: Flame is a self-hosted startpage for your server. Manage your apps and bookmarks effortlessly with built-in editors.
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/flame.png
+category: Development
+version: "1.0.0"
+port: 4000
+description: >-
+  The flame dashboard.
+
+developer: Linus Kang
+website: https://linuskang.au
+submitter: Linus Kang
+repo: https://github.com/linuskang/umbrel-apps
+support: https://github.com/linuskang/umbrel-apps/issues
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  Add what's new in the latest version of your app here.
+dependencies: []
+path: "/flame"
+defaultUsername: ""
+defaultPassword: ""
