@@ -4,7 +4,7 @@ services:
   app_proxy:
     environment:
       # Matches the Docker service name below
-      APP_HOST: lkang_flame_server_1
+      APP_HOST: server
       APP_PORT: 5005
 
   server:
